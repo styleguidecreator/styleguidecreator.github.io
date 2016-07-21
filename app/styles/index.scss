@@ -1,6 +1,8 @@
 @charset "utf-8";
 /*Base*/
 @import '../../node_modules/node.normalize.scss/_normalize';
+@import 'base/_functionrem';
 @import 'base/_colors';
 @import 'base/_font';
 @import 'base/_screen';
+@import 'base/_basic';

@@ -4,16 +4,15 @@ import React, {Component} from "react";
 import home from "../../styles/index.scss";
 
 
-class Home extends Component {
+class About extends Component {
 
   render() {
     return <div>
-      <span>what's up?</span>
-      <p><a href="/about">Go about</a></p>
+      <span>About, hello</span>
     </div>
 
   }
 
 }
 
-export default Home;
+export default About;

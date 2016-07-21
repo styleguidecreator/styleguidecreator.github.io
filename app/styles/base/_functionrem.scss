@@ -1,0 +1,6 @@
+// body font size
+$browser-context: 16;
+// function to convert px to rem
+@function rem($pixels, $context: $browser-context) {
+   @return #{$pixels/$context}rem
+}

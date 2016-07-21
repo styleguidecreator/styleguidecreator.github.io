@@ -1,0 +1,26 @@
+/*Styles basic*/
+body,
+html {
+  line-height: 1.2;
+  font-size: rem(16);
+  color:$font-color-2;
+  font-family: $font-secondary;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: $font-color-2;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $font-primary;
+}
+
+b{
+  font-weight: $font-weight-bold;
+}
+
+i{
+  font-style: italic;
+}
